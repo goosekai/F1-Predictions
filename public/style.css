@@ -1,0 +1,158 @@
+@font-face {
+    font-family: nexa;
+    src: url("./Fonts/Nexa-Heavy.ttf");
+  }
+  
+  @font-face {
+    font-family: gilroy;
+    src: url("./Fonts/Gilroy-Medium.ttf");
+  }
+
+  body {
+    height: 100%;
+  }
+
+  
+  .background {
+    background-image: url(../Images/layered-waves-haikei.png);
+    position: fixed;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  .formCard {
+    align-content: center;
+    margin: auto;
+    margin-top: 160px;
+    z-index: 1;
+    overflow: auto;
+    scrollbar-width: none;
+  
+  
+    width: 1000px;
+    height: 800px;
+    background-color: #222222ab;
+    border-radius: 8px;
+    box-shadow: 5px 10px 20px rgb(0, 0, 0);
+  }
+  
+  #predictions {
+    position: relative;
+    bottom: 140px;
+    font-size: 50px;
+    color: white;
+    font-family: nexa;
+    text-align: center;
+  }
+
+  #predictions2 {
+    position: relative;
+    top: 55px;
+    font-size: 50px;
+    color: white;
+    font-family: nexa;
+    text-align: center;
+  }
+  
+  .labels {
+    font-family: gilroy;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .form-select {
+    background-color: #222;
+    color: white;
+    border: white;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.589);
+  }
+  
+  .form-control {
+    width: 140px;
+    color: white;
+    border: white;
+    background: #222;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.589);
+  }
+  
+  #racePredictions {
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+  }
+  
+  #submit {
+    font-family: nexa;
+    font-size: 15px;
+    background: #222;
+    color: white;
+    border: white;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.589);
+    border-radius: 8px;
+    padding: 8px;
+  
+    position: relative;
+    top: 50px;
+    left: 400px;
+  }
+  
+  .col-2 {
+    position: relative;
+    bottom: 50px;
+    left: 360px;
+  }
+
+  #tracksHome {
+    font-family: nexa;
+    font-size: 20px;
+    background: #222;
+    color: white;
+    border: white;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.589);
+    border-radius: 8px;
+    padding: 8px;
+
+    position: relative;
+    top: 80px;
+    left: 445px;
+  }
+
+  #tracksBody {
+    position: relative;
+    top: 170px;
+    left: 12px;
+  }
+
+  #cardStyle {
+    color: white;
+    background-color: #222;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.589);
+  }
+
+  #cardBody {
+    overflow: auto;
+    scrollbar-width: none;
+    height: 200px;
+  }
+
+  #predictionsHome {
+    font-family: nexa;
+    font-size: 20px;
+    background: #222;
+    color: white;
+    border: white;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.589);
+    border-radius: 8px;
+    padding: 8px;
+
+    position: relative;
+    top: 100px;
+    left: 420px;
+  }
