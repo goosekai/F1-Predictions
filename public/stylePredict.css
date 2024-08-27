@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body {
+    background-color: #222;
+    height: 100%;
+
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
+
+.racePredictions {
+    color: white;
+    text-align: center;
+}
+
+.mainText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.labels {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.submitButton {
+    background-color: #2ff52f;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.submitButton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    background-color: #222;
+    padding: 0px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.363);
+}
+
+.card-title {
+    color: white;
+    font-size: 30px;
+}
+
+.card-body {
+    overflow: auto;
+    scrollbar-width: none;
+    height: 200px;
+}
+
+.card-text {
+    color: white;
+}
