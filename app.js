@@ -140,6 +140,8 @@ function isAuthenticated(req, res, next) {
     res.redirect('/');
 }
 
+app.use(express.static(path.join('public')));
+
 const f1 = mongoose.createConnection(process.env.F1_DATABASE_URL)
 
 const Schema = mongoose.Schema;
