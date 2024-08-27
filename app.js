@@ -27,7 +27,7 @@ const logins = mongoose.createConnection(process.env.LOGIN_DATABASE_URL);
 const userSchema = new mongoose.Schema({
     username: { type: String, required: true },
     password: { type: String, required: true },
-    rememberMeToken: { type: String }  // New field for storing the remember me token
+    rememberMeToken: { type: String }
 }, { collection: 'users' });
 
 const User = logins.model('User', userSchema);
@@ -64,30 +64,23 @@ passport.deserializeUser(async (id, done) => {
     }
 });
 
-// Root route with auto sign-in functionality
 app.get('/', async (req, res) => {
     if (req.isAuthenticated()) {
-        // If the user is already authenticated, redirect to predictions
         return res.redirect('/predictions');
     }
 
-    // Check if the remember me token exists in the cookies
     const token = req.cookies.remember_me;
     if (token) {
         try {
-            // Find the user with the token
             const user = await User.findOne({ rememberMeToken: token });
             if (user) {
-                // Log the user in automatically
                 req.logIn(user, (err) => {
                     if (err) {
                         return res.sendFile(path.join(__dirname, 'public', 'login.html'));
                     }
-                    // Redirect to predictions after auto-login
                     return res.redirect('/predictions');
                 });
             } else {
-                // If no user found with the token, show the login page
                 return res.sendFile(path.join(__dirname, 'public', 'login.html'));
             }
         } catch (error) {
@@ -95,7 +88,6 @@ app.get('/', async (req, res) => {
             return res.sendFile(path.join(__dirname, 'public', 'login.html'));
         }
     } else {
-        // If no token is found, show the login page
         return res.sendFile(path.join(__dirname, 'public', 'login.html'));
     }
 });
