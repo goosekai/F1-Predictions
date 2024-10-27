@@ -441,7 +441,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             if (Array.isArray(data.mexicoDoc) && data.mexicoDoc.length > 0) {
-                const mexicoContainer = document.getElementById('texas');
+                const mexicoContainer = document.getElementById('mexico');
 
                 data.mexicoDoc.forEach(element => {
 
