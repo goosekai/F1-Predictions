@@ -132,6 +132,29 @@ function isAuthenticated(req, res, next) {
     res.redirect('/');
 }
 
+app.get('/logout', (req, res, next) => {
+    // Logout from Passport session
+    req.logout(function(err) {
+      if (err) {
+        return next(err);
+      }
+  
+      res.clearCookie('remember_me');
+  
+      // Destroy the session
+      req.session.destroy(function(err) {
+        if (err) {
+          console.error('Session destruction error:', err);
+          return res.redirect('/');
+        }
+  
+        res.redirect('/');
+      });
+    });
+  });
+  
+  
+
 app.use(express.static(path.join('public')));
 
 const f1 = mongoose.createConnection(process.env.F1_DATABASE_URL)

@@ -15,15 +15,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     bahrainContainer.appendChild(predictionDiv);
@@ -39,15 +39,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     jeddahContainer.appendChild(predictionDiv);
@@ -63,15 +63,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     australiaContainer.appendChild(predictionDiv);
@@ -87,15 +87,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     japanContainer.appendChild(predictionDiv);
@@ -111,15 +111,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     chinaContainer.appendChild(predictionDiv);
@@ -135,15 +135,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     miamiContainer.appendChild(predictionDiv);
@@ -159,15 +159,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     monacoContainer.appendChild(predictionDiv);
@@ -183,15 +183,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     canadaContainer.appendChild(predictionDiv);
@@ -207,15 +207,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     spainContainer.appendChild(predictionDiv);
@@ -231,15 +231,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     austriaContainer.appendChild(predictionDiv);
@@ -255,15 +255,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     silverstoneContainer.appendChild(predictionDiv);
@@ -279,15 +279,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     hungaryContainer.appendChild(predictionDiv);
@@ -303,15 +303,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     belgiumContainer.appendChild(predictionDiv);
@@ -327,15 +327,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     netherlandsContainer.appendChild(predictionDiv);
@@ -351,15 +351,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     monzaContainer.appendChild(predictionDiv);
@@ -375,15 +375,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     azerbaijanContainer.appendChild(predictionDiv);
@@ -399,15 +399,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     singaporeContainer.appendChild(predictionDiv);
@@ -423,15 +423,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     texasContainer.appendChild(predictionDiv);
@@ -447,15 +447,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     mexicoContainer.appendChild(predictionDiv);
@@ -471,15 +471,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     brazilContainer.appendChild(predictionDiv);
@@ -495,15 +495,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     lasvegasContainer.appendChild(predictionDiv);
@@ -519,15 +519,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     qatarContainer.appendChild(predictionDiv);
@@ -543,15 +543,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const predictionDiv = document.createElement('div');
                     predictionDiv.innerHTML = `
-                        <p><strong>Name:</strong> ${element.name}</p>
-                        <p><strong>Biggest Surprise:</strong> ${element.biggestSurprise}</p>
-                        <p><strong>Biggest Flop:</strong> ${element.biggestFlop}</p>
-                        <p><strong>Sprint Pole:</strong> ${element.sprintPole}</p>
-                        <p><strong>Sprint Winner:</strong> ${element.sprintWinner}</p>
-                        <p><strong>First Place:</strong> ${element.firstPlace}</p>
-                        <p><strong>Second Place:</strong> ${element.secondPlace}</p>
-                        <p><strong>Third Place:</strong> ${element.thirdPlace}</p>
-                        <p><strong>Crazy Prediction:</strong> ${element.crazyPrediction}</p>
+                        <p><strong>Name</strong>: ${element.name}</p>
+                        <p><strong>Biggest Surprise</strong>: ${element.biggestSurprise}</p>
+                        <p><strong>Biggest Flop</strong>: ${element.biggestFlop}</p>
+                        <p><strong>Sprint Pole</strong>: ${element.sprintPole}</p>
+                        <p><strong>Sprint Winner</strong>: ${element.sprintWinner}</p>
+                        <p><strong>First Place</strong>: ${element.firstPlace}</p>
+                        <p><strong>Second Place</strong>: ${element.secondPlace}</p>
+                        <p><strong>Third Place</strong>: ${element.thirdPlace}</p>
+                        <p><strong>Crazy Prediction</strong>: ${element.crazyPrediction}</p>
                         <hr>
                     `;
                     abudhabiContainer.appendChild(predictionDiv);
