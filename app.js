@@ -15,8 +15,7 @@ app.use(cookieParser());
 app.use(session({
     secret: process.env.SECRET_KEY,
     resave: false,
-    saveUninitialized: true,
-    cookie: { maxAge: 1000 * 60 * 60 * 24 } // 1 day
+    saveUninitialized: false
 }));
 
 app.use(passport.initialize());
@@ -26,8 +25,7 @@ const logins = mongoose.createConnection(process.env.LOGIN_DATABASE_URL);
 
 const userSchema = new mongoose.Schema({
     username: { type: String, required: true },
-    password: { type: String, required: true },
-    rememberMeToken: { type: String }
+    password: { type: String, required: true }
 }, { collection: 'users' });
 
 const User = logins.model('User', userSchema);
@@ -64,32 +62,11 @@ passport.deserializeUser(async (id, done) => {
     }
 });
 
-app.get('/', async (req, res) => {
-    if (req.isAuthenticated()) {
+app.get('/', (req, res) => {
+    if (req.isAuthenticated() && req.session.cookie.maxAge > 60000) {
         return res.redirect('/predictions');
     }
-
-    const token = req.cookies.remember_me;
-    if (token) {
-        try {
-            const user = await User.findOne({ rememberMeToken: token });
-            if (user) {
-                req.logIn(user, (err) => {
-                    if (err) {
-                        return res.sendFile(path.join(__dirname, 'public', 'login.html'));
-                    }
-                    return res.redirect('/predictions');
-                });
-            } else {
-                return res.sendFile(path.join(__dirname, 'public', 'login.html'));
-            }
-        } catch (error) {
-            console.error('Error during auto sign-in:', error);
-            return res.sendFile(path.join(__dirname, 'public', 'login.html'));
-        }
-    } else {
-        return res.sendFile(path.join(__dirname, 'public', 'login.html'));
-    }
+    return res.sendFile(path.join(__dirname, 'public', 'login.html'));
 });
 
 app.post('/login', (req, res, next) => {
@@ -97,29 +74,24 @@ app.post('/login', (req, res, next) => {
         if (err) return next(err);
         if (!user) return res.redirect('/');
 
-        req.logIn(user, async (err) => {
+        req.logIn(user, (err) => {
             if (err) return next(err);
 
             if (req.body.rememberMe) {
-                const token = crypto.randomBytes(32).toString('hex');
-                user.rememberMeToken = token;
-                await user.save();
-
-                res.cookie('remember_me', token, {
+                req.session.cookie.maxAge = 1000 * 60 * 60 * 24 * 30; // 30 days
+                res.cookie('remember_me', 'true', {
                     path: '/',
                     httpOnly: true,
-                    maxAge: 1000 * 60 * 60 * 24 * 30  // 30 days
+                    maxAge: 1000 * 60 * 60 * 24 * 30 // 30 days
                 });
-
-                req.session.cookie.maxAge = 1000 * 60 * 60 * 24 * 30; // 30 days
-            } else {
-                req.session.cookie.expires = false;
             }
 
             return res.redirect('/predictions');
         });
     })(req, res, next);
 });
+
+
 
 app.get('/predictions', isAuthenticated, (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'predictions.html'));
@@ -131,6 +103,29 @@ function isAuthenticated(req, res, next) {
     }
     res.redirect('/');
 }
+
+app.get('/logout', (req, res, next) => {
+    // Logout from Passport session
+    req.logout(function(err) {
+      if (err) {
+        return next(err);
+      }
+  
+      res.clearCookie('remember_me');
+  
+      // Destroy the session
+      req.session.destroy(function(err) {
+        if (err) {
+          console.error('Session destruction error:', err);
+          return res.redirect('/');
+        }
+  
+        res.redirect('/');
+      });
+    });
+  });
+  
+  
 
 app.use(express.static(path.join('public')));
 

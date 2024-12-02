@@ -34,7 +34,38 @@ body {
     text-align: center;
 }
 
-.mainText {
+.predictsText {
+    display: flex;         /* Enable flexbox layout */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+.predictsStyle {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 85px;
+
+    background: linear-gradient(to right, rgb(255, 255, 255) 40%, #2ff52f 60%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#logoutText {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+#logout {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.tracksText {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,6 +75,11 @@ body {
     font-family: "Oswald", sans-serif;
     font-weight: 700;
     font-size: 85px;
+
+    background: linear-gradient(to right, rgb(255, 255, 255) 45%, #2ff52f 56%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .labels {
@@ -53,16 +89,16 @@ body {
 }
 
 .submitButton {
+    font-family: 'Roboto';
     background-color: #2ff52f;
     border: none;
     color: black;
-    padding: 10px 10px;
+    padding: 5px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    font-weight: bold;
-    border-radius: 15px;
+    border-radius: 20px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     cursor: pointer;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);

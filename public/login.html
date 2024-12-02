@@ -20,21 +20,20 @@
 
     <div class="loginForm">
         <form action="/login" method="POST">
-            <h1 class="mainText">
-                <font color="#fffff">F1</font>
-                <font color="#2ff52f">Predictions</font>
-            </h1>
+            <h1 class="mainText">F1 Predictions</h1>
             <br>
             <br>
 
-            <label for="username" class="username">Username:</label><br>
-            <input type="text" class="usernameInput" id="username" name="username" required><br><br><br>
+            <i class="bi bi-person-fill" id="input-icon"></i>
+            <input type="text" class="input-field" id="username" name="username" placeholder="Username"
+                required><br><br>
 
-            <label for="password" class="password">Password:</label><br>
-            <input type="password" class="passwordInput" id="password" name="password" required><br><br>
+            <i class="bi bi-lock-fill" id="input-icon"></i>
+            <input type="password" class="input-field" id="password" name="password" placeholder="Password"
+                required><br><br>
 
-            <label for="rememberMe">Remember Me:</label>
-            <input type="checkbox" id="rememberMe" name="rememberMe"><br><br>
+            <input type="checkbox" class="remember" name="rememberMe">
+            <label class="remember">Remember Me</label><br><br>
 
             <button type="submit" class="submitButton"><i class="bi bi-box-arrow-in-right"></i> Login</button>
         </form>
